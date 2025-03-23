@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Book a Room</h2>
+    <form id="bookRoomForm">
+        <label>Customer Name:</label>
+        <input type="text" id="name" required>
+        <label>Phone Number:</label>
+        <input type="text" id="phone" required>
+        <label>Aadhaar Number:</label>
+        <input type="text" id="aadhaar" required>
+        <label>Check-in Date:</label>
+        <input type="date" id="checkin" required>
+        <label>Room Type:</label>
+        <select id="roomType">
+            <option value="AC">AC</option>
+            <option value="Non-AC">Non-AC</option>
+        </select>
+        <button type="submit">Book Now</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
